@@ -66,7 +66,7 @@ class _CustomListState extends State<CustomList> {
                                                 ? val.name.substring(0, 35)
                                                 : val.name,
                                             style: TextStyle(
-                                                fontSize: 15,
+                                                fontSize: 14,
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           SizedBox(

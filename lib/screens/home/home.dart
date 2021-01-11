@@ -44,7 +44,7 @@ class _HomeState extends State<Home> {
           )),
         ),
       ),
-      backgroundColor: Colors.white.withOpacity(.9),
+      backgroundColor: Colors.grey.shade200,
       body: SingleChildScrollView(
         padding: EdgeInsets.only(bottom: 20),
         child: Observer(builder: (context) {

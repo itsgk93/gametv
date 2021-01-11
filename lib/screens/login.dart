@@ -62,6 +62,7 @@ class _LoginState extends State<Login> {
     if (!wrongCredentials) {
       final prefs = await SharedPreferences.getInstance();
       prefs.setBool("isLoggedIn", true);
+      Navigator.pushReplacementNamed(context, "home");
     }
   }
 
